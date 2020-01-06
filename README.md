@@ -3,6 +3,7 @@ Python module that can be used to get SFP info from Cisco Switches
 
 Usage:
 
+Sample Code:
 ```
 from sfpmon import Switch
 
@@ -12,6 +13,7 @@ for interface in switch.getSfpdetails():
 	print(f"Name: {interface['name']}, Temperature: {interface['temperature']}, Voltage: {interface['voltage']}, TX Power: {interface['txpower']}, RX Power: {interface['rxpower']}")
 ```
 
+Sample Code Output:
 ```
 Name: Gi1/13, Temperature: 39.2, Voltage: 3.20, TX Power: -5.7, RX Power: -7.3
 Name: Gi1/14, Temperature: 39.9, Voltage: 3.20, TX Power: -5.8, RX Power: -14.1
