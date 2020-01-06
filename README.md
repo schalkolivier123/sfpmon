@@ -8,9 +8,9 @@ Sample Code:
 from sfpmon import Switch
 
 if __name__ ==  "__main__":
-switch = Switch('switchip',  username='username',  password='password')
-for interface in switch.getSfpdetails():
-	print(f"Name: {interface['name']}, Temperature: {interface['temperature']}, Voltage: {interface['voltage']}, TX Power: {interface['txpower']}, RX Power: {interface['rxpower']}")
+	switch = Switch('switchip',  username='username',  password='password')
+	for interface in switch.getSfpdetails():
+		print(f"Name: {interface['name']}, Temperature: {interface['temperature']}, Voltage: {interface['voltage']}, TX Power: {interface['txpower']}, RX Power: {interface['rxpower']}")
 ```
 
 Sample Code Output:
