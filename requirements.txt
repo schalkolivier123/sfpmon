@@ -1,2 +1,2 @@
-paramiko==2.6.0
+paramiko==2.10.1
 prettytable==0.7.2
